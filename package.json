@@ -1,0 +1,35 @@
+{
+  "name": "listingboost-pro",
+  "version": "1.0.0",
+  "description": "AI-powered real estate listing generator with PayPal integration",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static build complete'",
+    "start": "serve -s . -l 3000",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "real-estate",
+    "ai",
+    "listing-generator",
+    "paypal",
+    "mls"
+  ],
+  "author": "ListingBoost Pro",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/node": "^4.0.0",
+    "jsdom": "^22.1.0",
+    "puppeteer": "^21.0.0",
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
